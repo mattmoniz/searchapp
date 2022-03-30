@@ -1,0 +1,42 @@
+.app {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app .sidebar {
+  background: #36c;
+  padding: 1rem;
+  flex-basis: 2rem;
+  flex-grow: .1;
+  color: white;
+}
+.app .header {
+  align-items: center;
+  width: 100%;  /* allows both columns to span the full height of the browser window */
+  flex-direction: row;
+  color: blue;
+  background-color: gold;
+  height: 2rem;
+}
+
+.app .content  {
+  flex-basis: 2rem;
+  flex-grow: .9;
+  min-inline-size: 50%;
+
+    }
+
+.app .content .jsonOutput {
+  border: 1px solid gray;
+  background-color: #F0F0F0;
+  overflow-y: auto;
+}
+
+ul{
+  list-style: none;
+}
+
+
+
+
+
